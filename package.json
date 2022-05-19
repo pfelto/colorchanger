@@ -1,0 +1,36 @@
+{
+  "name": "colorchanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "lite-server": "^2.6.1",
+    "prettier": "2.6.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ], 
+      "parserOptions": {
+          "ecmaVersion": 2017
+      },
+      "env": {
+          "es6": true
+      }
+      ,"rules":{
+        "no-undef": "off"
+      }
+  }
+}
